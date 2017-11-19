@@ -8,7 +8,7 @@ h1, h2, h3 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	color: #4aaaa5;
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	text-align: center;
 }
 
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
 	font-size: 30px;
-	padding: 0px 15px 25px 0;
+	padding: 0 15px 25px 0;
 	border-bottom: 3px solid #dddddd;
 	margin-top: 0px;
 }
@@ -115,7 +115,7 @@ nav a:hover {
 	font-size: 18px;
 	float: left;
 	width: calc(100% - 60px);
-	padding: 30px;
+	padding: 0 30px;
 }
 
 .description p {
@@ -326,6 +326,11 @@ footer p {
 
 	h1, h2, h3 {
 		text-align: left;
+	}
+
+	.description {
+		padding: 0;
+		width: 100%;
 	}
 
 }
