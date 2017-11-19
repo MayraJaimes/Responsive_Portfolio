@@ -243,3 +243,43 @@ footer p {
 	clear: both;
 }
 
+@media only screen and (min-width: 768px) {
+	header {
+		width: 100%;
+	}
+
+	.headerContainer {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	h1 {
+		width: auto;
+		padding: 28px;
+	}
+
+	nav {
+		width: auto;
+		float: right;
+		padding: 34px 10px;
+	}
+}
+
+@media only screen and (min-width: 980px) {
+	.contentContainer {
+		max-width: 960px;
+		margin: 40px auto;
+	}
+
+	.mainSection {
+		width: 588px;
+		padding: 30px;
+	}
+
+	.sidebar {
+		margin-top: 0;
+		margin-left: 40px;
+		width: 208px;
+		padding: 30px;
+		text-align: left;
+	}
+}
