@@ -364,7 +364,6 @@ footer p {
 
 	.portfolio {
 		width: 100%;
-		height: 400px;
 		float: left;
 	}
 
@@ -417,7 +416,6 @@ footer p {
 
 	.portfolio {
 		max-width: calc(50% - 17px);
-		height: 215px;
 		float: left;
 	}
 
