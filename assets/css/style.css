@@ -350,14 +350,14 @@ footer p {
 	}
 
 	.mainSection {
-		width: 548px;
+		width: 60%;
 		padding: 30px;
 	}
 
 	.sidebar {
 		margin-top: 0;
 		margin-left: 40px;
-		width: 208px;
+		width: 22%;
 		padding: 30px;
 		text-align: left;
 	}
@@ -382,6 +382,10 @@ footer p {
 	.portfolio:last-child{
 	margin-bottom: 0;
 	}
+
+	.sidebar li {
+	display: inline-block;
+	width: 29%;
 }
 
 @media only screen and (min-width: 1240px) {
