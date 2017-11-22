@@ -128,6 +128,7 @@ nav a:hover {
 
 .portfolio {
 	width: 100%;
+	height:300px;
 	border: 1px black solid;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -144,7 +145,7 @@ nav a:hover {
 	display: block;
 	width: 100%;
 	border-bottom: none;
-	margin-top: 125px;
+	margin-top: 225px;
 	font-weight: normal;
 }
 
@@ -312,14 +313,14 @@ footer p {
 	.portfolio {
 		max-width: calc(50% - 17px);
 		float: left;
-		height: 200px;
+		height: 220px;
 	}
 
 	.portfolio h3 {
 		padding: 18px 30px;
 		float: left;
 		width: calc(100% - 60px);
-		margin-top: 125px;
+		margin-top: 140px;
 	}
 
 	.portfolio:nth-child(even) {
@@ -338,12 +339,13 @@ footer p {
 	}
 
 	.contentContainer {
-		width: 960px;
+		max-width: 960px;
+		padding: 0;
 		margin: 40px auto;
 	}
 
 	.mainSection {
-		width: 588px;
+		width: 548px;
 		padding: 30px;
 	}
 
