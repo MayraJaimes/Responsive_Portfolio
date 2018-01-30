@@ -1,4 +1,4 @@
-# Basic-Portfolio
+#Portfolio
 
 I built a professional portfolio site using HTML/CSS. It has an aesthetically pleasing layout while using different kinds of complex HTML elements. I styled my pages with CSS. There were specifications were provided by my Northwestern Instructor that had to be met for this portfolio assignment.
 
